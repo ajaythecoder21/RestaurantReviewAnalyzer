@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import render_template, url_for
+from flask import render_template, url_for, request
 #from joblib import load
 import pickle
 #from sklearn.model_selection import train_test_split
@@ -18,8 +18,9 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-#@app.route('/predict')
-#def predict():
+@app.route('/predict')
+def predict():
+    text = request.get.args("form_a")
     #return
 
 @app.route('/output')
