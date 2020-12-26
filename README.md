@@ -19,3 +19,8 @@ Step 2: Setup the Flask Server Part a) Set up the necessary routes Part b) Set u
 Step 3: Set up the MySQL database to store the output of the prediction Part a) Set up the ports and tables necessary
 
 Step 4: Set up the Amazon EC2 Instance Web Hosting
+
+
+
+References:
+https://www.youtube.com/watch?v=1umQhC2iWdY&t=524s

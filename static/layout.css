@@ -3,3 +3,7 @@ body{
     text-align: center;
 }
 
+#box{
+    border: 5px solid black;
+
+}

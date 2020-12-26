@@ -2,12 +2,14 @@
 {% block content %}
 <h1> This is Sentiment Analyzer!</h1>
 
-<form class = "form_a">
-<label>Type the Scottsdale Review:</label>
-<input type = "text">
+<form class = "form_a" action = "{{url_for('predict')}}" method = "POST">
+<label>Type the Scottsdale Review:</label><br>
+<textarea name = "box" rows = "6" cols = "50"></textarea>
 <!--<label> Button</label>-->
 <!--<input type = "submit" onclick = "myFunction()">-->
-<button onclick = "myFunction()">Submit</button>
+
+<input type = "submit" value = "predict">
+
 
 
 

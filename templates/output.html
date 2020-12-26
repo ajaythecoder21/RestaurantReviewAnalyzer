@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    {% if prediction == 1 %}
+        <h1> Positive Review </h1>
+    
+    {% elif prediction == 0 %}
+        <h1> Negative Review </h1>
+    {% endif %}
+{% endblock content %}
