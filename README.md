@@ -24,3 +24,5 @@ Step 4: Set up the Amazon EC2 Instance Web Hosting
 
 References:
 https://www.youtube.com/watch?v=1umQhC2iWdY&t=524s
+https://www.youtube.com/watch?v=xTumGVC90_0&t=3s
+https://www.youtube.com/watch?v=PJK950Gp780
